@@ -1,0 +1,382 @@
+body{
+	background-color: royalblue;
+	animation-name: fondo;
+	animation-duration: 3s;
+}
+
+
+
+p{
+	position: absolute;
+}
+.figura1{
+	width: 25px;
+	left: 5px;
+	top: 30px;
+
+}
+
+.numero1{
+	font-size: 40px;
+	color: red;
+	bottom: 330px;
+	left: 20px;
+}
+
+.figura2{
+	width: 25px;
+	left: 65px;
+	top: 145px;
+	transform: rotate(180deg);
+}
+
+.numero2{
+	font-size: 40px;
+	color: red;
+	top: 330px;
+	left: 250px;
+	transform: rotate(180deg);
+
+
+}
+
+.numero1black{
+	font-size: 40px;
+	color: black;
+	bottom: 330px;
+	left: 20px;
+
+}
+
+.numero2black{
+	font-size: 40px;
+	color: black;
+	top: 330px;
+	left: 250px;
+	transform: rotate(180deg);
+
+
+}
+
+.imgcentro{
+	width: 50px;
+		
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+div{
+	width: 300px;
+	height: 450px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: whitesmoke;
+	position: absolute;
+	
+	animation-name: sombra;
+	animation-duration: 3s;
+
+}
+
+@keyframes fondo{
+	from {background-color: darkblue;}
+	to {background-color: royalblue;}
+}
+
+
+@keyframes asdiamantes{
+	0% {top: 0;
+		left: 0;}
+	
+		30% {
+		transform: rotate(360deg);
+	}
+
+
+	100% {
+		left: 500px;
+	top: 200px;
+	transform: rotate(-20deg);
+		z-index: 1;
+	}
+
+
+}
+@keyframes sietetreboles{
+	0% {top: 0;
+		left: 0;}
+		
+	30% {
+		transform: rotate(360deg);
+	}
+	100% {
+		left: 650px;
+	top: 220px;
+	transform: rotate(40deg);
+		z-index: 5;
+
+	}
+
+
+}
+@keyframes cuatropicas{
+	0% {top: 0;
+		left: 0;}
+		
+	30% {
+		transform: rotate(360deg);
+	}
+	100% {
+		left: 550px;
+	top: 200px;
+		z-index: 3;
+	}
+
+
+}
+@keyframes seiscorazones{
+	0% {top: 0;
+		left: 0;}
+	
+	30% {
+		transform: rotate(360deg);
+	}
+	100% {
+		left: 600px;
+	top: 200px;
+	transform: rotate(20deg);
+		z-index: 4;
+	}
+
+
+}
+
+
+
+
+.asdiamantes{
+	left: 500px;
+	top: 200px;
+	transform: rotate(-20deg);
+	z-index: 2;
+	animation-name: asdiamantes;
+	animation-duration: 3s;
+
+}
+
+.sietetreboles{
+	left: 650px;
+	top: 220px;
+	transform: rotate(40deg);
+		z-index: 5;
+	animation-name: sietetreboles;
+	animation-duration: 3s;
+
+}
+
+.cuatropicas{
+	left: 550px;
+	top: 200px;
+		z-index: 3;
+	animation-name: cuatropicas;
+	animation-duration: 3s;
+
+}
+
+
+
+.seiscorazones{
+	left: 600px;
+	top: 200px;
+	transform: rotate(20deg);
+		z-index: 4;
+	animation-name: seiscorazones;
+	animation-duration: 3s;
+		
+
+}
+
+
+
+.figura1red{
+	font-size: 40px;
+	color: red;
+	bottom: 290px;
+	left: 25px;
+
+}
+
+.figura2red{
+	font-size: 40px;
+	color: red;
+	top: 290px;
+	left: 245px;
+	transform: rotate(180deg);
+
+}
+
+.figura1black{
+	font-size: 40px;
+	color: black;
+	bottom: 290px;
+	left: 25px;
+
+}
+
+.figura2black{
+	font-size: 40px;
+	color: black;
+	top: 290px;
+	left: 245px;
+	transform: rotate(180deg);
+
+}
+
+.rojo1{
+	font-size: 60px;
+	color: red;
+	top: 30px;
+	left: 60px;
+}
+
+.rojo2{
+	font-size: 60px;
+	color: red;
+	top: 30px;
+	right: 60px;
+}
+
+.rojo3{
+	font-size: 60px;
+	color: red;
+	bottom: 30px;
+	left: 60px;
+	transform: rotate(180deg);
+}
+.rojo4{
+	font-size: 60px;
+	color: red;
+	bottom: 30px;
+	right: 60px;
+	transform: rotate(180deg);
+
+}
+.rojo5{
+	font-size: 60px;
+	color: red;
+	top: 120px;
+	right:60px;
+}
+.rojo6{
+	font-size: 60px;
+	color: red;
+	top: 120px;
+	left:60px;
+}
+
+.negro1{
+	font-size: 60px;
+	color: black;
+	top: 30px;
+	left: 60px;
+}
+
+.negro2{
+	font-size: 60px;
+	color: black;
+	top: 30px;
+	right: 60px;
+}
+
+.negro3{
+	font-size: 60px;
+	color: black;
+	bottom: 30px;
+	left: 60px;
+	transform: rotate(180deg);
+}
+.negro4{
+	font-size: 60px;
+	color: black;
+	bottom: 30px;
+	right: 60px;
+	transform: rotate(180deg);
+
+}
+.negro5{
+	font-size: 60px;
+	color: black;
+	top: 120px;
+	right: 60%;
+	left: 40%;
+
+
+}
+
+.rojo5imp{
+	font-size:100px;
+	color: red;
+	top: 60px;
+	right: 60%;
+	left: 40%;
+
+
+}
+
+.sietetreboles1{
+	font-size: 60px;
+	color: black;
+	top: 30px;
+	left: 60px;
+}
+
+.sietetreboles2{
+	font-size: 60px;
+	color: black;
+	top: 30px;
+	right: 60px;
+}
+
+.sietetreboles3{
+	font-size: 60px;
+	color: black;
+	bottom: 30px;
+	left: 60px;
+	transform: rotate(180deg);
+}
+.sietetreboles4{
+	font-size: 60px;
+	color: black;
+	bottom: 30px;
+	right: 60px;
+	transform: rotate(180deg);
+
+}
+.sietetreboles5{
+	font-size: 60px;
+	color: black;
+	top: 120px;
+	right:60px;
+}
+.sietetreboles6{
+	font-size: 60px;
+	color: black;
+	top: 120px;
+	left:60px;
+}
+.sietetreboles7{
+	font-size:60px;
+	color: black;
+	top: 60px;
+	left: 130px;
+
+
+}
+
+
+
+
